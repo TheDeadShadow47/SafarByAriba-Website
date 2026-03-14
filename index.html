@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafarByAriba - Expert Visa & Travel Consulting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">SafarByAriba</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="lang-switcher">
+                    <select id="langSelect" class="lang-select">
+                        <option value="en">EN</option>
+                        <option value="ar">AR</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Expert Visa & Travel Consulting" data-ar="استشارة متخصصة في التأشيرات والسفر">Expert Visa & Travel Consulting</h1>
+            <p class="hero-subtitle" data-en="Professional visa and travel support to help you reach your destination with confidence." data-ar="دعم احترافي للتأشيرات والسفر لمساعدتك على الوصول إلى وجهتك بثقة.">Professional visa and travel support to help you reach your destination with confidence.</p>
+            <button class="btn btn-primary" id="ctaBtn" data-en="Start Your Application" data-ar="ابدأ طلبك">Start Your Application</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-passport"></i>
+                    <h3 data-en="Visa Application Assistance" data-ar="مساعدة في طلب التأشيرة">Visa Application Assistance</h3>
+                    <p data-en="Complete guidance through every step of your visa application process." data-ar="إرشادات شاملة في كل مرحلة من مراحل عملية طلب التأشيرة.">Complete guidance through every step of your visa application process.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-users"></i>
+                    <h3 data-en="Visa Interview Preparation" data-ar="تحضير مقابلة التأشيرة">Visa Interview Preparation</h3>
+                    <p data-en="Expert coaching to prepare you confidently for your visa interview." data-ar="تدريب متخصص لتحضيرك بثقة لمقابلة التأشيرة.">Expert coaching to prepare you confidently for your visa interview.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3 data-en="Travel Insurance" data-ar="تأمين السفر">Travel Insurance</h3>
+                    <p data-en="Comprehensive travel insurance solutions for your peace of mind." data-ar="حلول تأمين السفر الشاملة لراحة البال.">Comprehensive travel insurance solutions for your peace of mind.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-plane"></i>
+                    <h3 data-en="Flight Booking Support" data-ar="دعم حجز الرحلات">Flight Booking Support</h3>
+                    <p data-en="Assistance in finding and booking the best flights for your journey." data-ar="المساعدة في البحث وحجز أفضل الرحلات لرحلتك.">Assistance in finding and booking the best flights for your journey.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-signal"></i>
+                    <h3 data-en="eSIM & Global Connectivity" data-ar="eSIM والاتصال العالمي">eSIM & Global Connectivity</h3>
+                    <p data-en="Stay connected worldwide with our eSIM and connectivity solutions." data-ar="ابقَ متصلاً في جميع أنحاء العالم مع حلول الاتصال لدينا.">Stay connected worldwide with our eSIM and connectivity solutions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-car"></i>
+                    <h3 data-en="Airport Transfers" data-ar="تحويلات المطار">Airport Transfers</h3>
+                    <p data-en="Reliable and comfortable airport transfer services awaiting you." data-ar="خدمات نقل المطار الموثوقة والمريحة في خدمتك.">Reliable and comfortable airport transfer services awaiting you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <h2 class="section-title" data-en="Why Consult With Us" data-ar="لماذا استشارنا">Why Consult With Us</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-brain"></i>
+                    <h3 data-en="Expert Guidance" data-ar="إرشادات متخصصة">Expert Guidance</h3>
+                    <p data-en="Years of experience in visa and travel consulting at your service." data-ar="سنوات من الخبرة في استشارات التأشيرات والسفر في خدمتك.">Years of experience in visa and travel consulting at your service.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3 data-en="Faster Preparation" data-ar="تحضير أسرع">Faster Preparation</h3>
+                    <p data-en="Streamlined process to get you travel-ready in less time." data-ar="عملية مبسطة لتجهيزك للسفر في وقت أقل.">Streamlined process to get you travel-ready in less time.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3 data-en="Higher Success Chances" data-ar="فرص نجاح أعلى">Higher Success Chances</h3>
+                    <p data-en="Our proven methodology increases your chances of visa approval." data-ar="منهجيتنا المثبتة تزيد من فرص موافقة التأشيرة.">Our proven methodology increases your chances of visa approval.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3 data-en="Personalized Support" data-ar="دعم شخصي">Personalized Support</h3>
+                    <p data-en="Customized solutions tailored to your unique travel needs." data-ar="حلول مخصصة مصممة لاحتياجات سفرك الفريدة.">Customized solutions tailored to your unique travel needs.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-hourglass-end"></i>
+                    <h3 data-en="Time Saving" data-ar="توفير الوقت">Time Saving</h3>
+                    <p data-en="Let us handle the details while you prepare for your adventure." data-ar="دعنا نتولى التفاصيل بينما تستعد لمغامرتك.">Let us handle the details while you prepare for your adventure.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3 data-en="Trusted Assistance" data-ar="مساعدة موثوقة">Trusted Assistance</h3>
+                    <p data-en="Reliable support you can depend on every step of the way." data-ar="دعم موثوق يمكنك الاعتماد عليه في كل خطوة.">Reliable support you can depend on every step of the way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <h2 class="section-title" data-en="How It Works" data-ar="كيف يعمل">How It Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-en="Consultation" data-ar="استشارة">Consultation</h3>
+                    <p data-en="Initial consultation to understand your travel goals and requirements." data-ar="استشارة أولية لفهم أهدافك ومتطلبات السفر.">Initial consultation to understand your travel goals and requirements.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-en="Document Preparation" data-ar="تحضير المستندات">Document Preparation</h3>
+                    <p data-en="We help you gather and prepare all necessary documents for your application." data-ar="نساعدك على جمع وتحضير جميع المستندات اللازمة.">We help you gather and prepare all necessary documents for your application.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-en="Application Support" data-ar="دعم الطلب">Application Support</h3>
+                    <p data-en="Professional support throughout your application and interview process." data-ar="دعم احترافي طوال عملية الطلب والمقابلة.">Professional support throughout your application and interview process.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 data-en="Travel Ready" data-ar="جاهز للسفر">Travel Ready</h3>
+                    <p data-en="Final preparations to ensure you're completely ready for your journey." data-ar="التحضيرات النهائية لضمان جاهزيتك الكاملة لرحلتك.">Final preparations to ensure you're completely ready for your journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-ar="تواصل معنا">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" data-en-placeholder="Your Name" data-ar-placeholder="اسمك الكامل" required>
+                    <input type="email" placeholder="Your Email" data-en-placeholder="Your Email" data-ar-placeholder="بريدك الإلكتروني" required>
+                    <input type="tel" placeholder="Your Phone" data-en-placeholder="Your Phone" data-ar-placeholder="رقم هاتفك" required>
+                    <textarea placeholder="Your Message" data-en-placeholder="Your Message" data-ar-placeholder="رسالتك" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3 data-en="WhatsApp" data-ar="واتساب">WhatsApp</h3>
+                        <p data-en="Chat with us for quick support" data-ar="تحدث معنا للحصول على دعم سريع">Chat with us for quick support</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                        <p>contact@safarbyariba.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SafarByAriba</h4>
+                    <p data-en="Your trusted partner in visa and travel consulting." data-ar="شريكك الموثوق في استشارات التأشيرات والسفر.">Your trusted partner in visa and travel consulting.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                        <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+                        <li><a href="#why-us" data-en="Why Us" data-ar="لماذا نحن">Why Us</a></li>
+                        <li><a href="#contact" data-en="Contact" data-ar="اتصل">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="&copy; 2026 SafarByAriba. All rights reserved." data-ar="© 2026 SafarByAriba. جميع الحقوق محفوظة.">&copy; 2026 SafarByAriba. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
