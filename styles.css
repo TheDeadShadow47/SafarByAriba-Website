@@ -349,6 +349,10 @@ section {
     box-shadow: 0 0 0 3px rgba(198, 167, 94, 0.1);
 }
 
+.contact-form textarea {
+    resize: none;
+}
+
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -449,6 +453,33 @@ section {
     color: rgba(255, 255, 255, 0.7);
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--secondary);
+    color: var(--white);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: var(--transition);
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    background: #B39649;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(198, 167, 94, 0.3);
+}
+
 [dir="rtl"] {
     direction: rtl;
     text-align: right;
@@ -502,22 +533,66 @@ section {
 
     .section-title {
         font-size: 1.8rem;
+        margin-bottom: 2rem;
     }
 
     .hero {
-        padding: 80px 20px;
+        padding: 60px 20px;
+        min-height: auto;
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
     }
 
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        padding: 10px 24px;
+        font-size: 0.95rem;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
     }
 
     section {
-        padding: 50px 20px;
+        padding: 40px 20px;
+    }
+
+    .services-grid,
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .service-card,
+    .benefit-card {
+        padding: 1.5rem;
+    }
+
+    .service-card i,
+    .benefit-card i {
+        font-size: 2rem;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .step {
+        padding: 1.5rem;
+    }
+
+    .step-number {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
     }
 
     .contact-wrapper {
@@ -525,9 +600,34 @@ section {
         gap: 2rem;
     }
 
-    .services-grid,
-    .benefits-grid {
+    .contact-form input,
+    .contact-form textarea {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+
+    .contact-info {
         gap: 1.5rem;
+    }
+
+    .footer-content {
+        gap: 2rem;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+
+    .social-links {
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .social-links a {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
     }
 
     .whatsapp-float {
@@ -542,5 +642,154 @@ section {
         right: auto;
         left: 20px;
     }
+
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    .nav-menu {
+        padding: 1.5rem 0;
+        gap: 0.8rem;
+    }
+
+    .nav-link {
+        font-size: 0.95rem;
+    }
+
+    .lang-select {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
 }
 
+@media (max-width: 480px) {
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    .services-grid,
+    .benefits-grid {
+        gap: 1rem;
+    }
+
+    .service-card,
+    .benefit-card {
+        padding: 1.2rem;
+    }
+
+    .service-card h3,
+    .benefit-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .service-card p,
+    .benefit-card p {
+        font-size: 0.9rem;
+    }
+
+    .process-steps {
+        gap: 1rem;
+    }
+
+    .step {
+        padding: 1rem;
+    }
+
+    .step h3 {
+        font-size: 1.1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+
+    .contact-wrapper {
+        gap: 1.5rem;
+    }
+
+    .footer-content {
+        gap: 1.5rem;
+    }
+
+    .footer-section h4 {
+        font-size: 0.95rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-section p,
+    .footer-section a {
+        font-size: 0.85rem;
+    }
+
+    .social-links {
+        gap: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .social-links a {
+        width: 32px;
+        height: 32px;
+        font-size: 0.9rem;
+    }
+
+    .whatsapp-float {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    [dir="rtl"] .whatsapp-float {
+        right: auto;
+        left: 15px;
+    }
+
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .navbar-container {
+        padding: 0 15px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav-menu {
+        top: 60px;
+        padding: 1rem 0;
+        gap: 0.5rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
