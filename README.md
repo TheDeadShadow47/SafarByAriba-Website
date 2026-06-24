@@ -40,14 +40,6 @@ Hosting & Forms:
 ├── index.html
 ├── style.css
 ├── script.js
-│
-├── /assets
-│   ├── images
-│   ├── icons
-│   └── logo
-│
-└── /translations
-    └── languages.js
 ```
 
 ---
@@ -120,5 +112,6 @@ const translations = {
 
 
 ## License
+You can access the website at https://safarbyariba.com/
 
 This project is maintained for **SafarByAriba**.
