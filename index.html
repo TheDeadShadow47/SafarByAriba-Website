@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SafarByAriba — Expert Visa & Travel Consulting</title>
+  <meta name="description" content="A bespoke visa and travel consultancy for the modern global citizen. Expert guidance for visa applications, document authentication, and luxury travel planning." />
+  <meta name="theme-color" content="#0D1B2A" />
+  <meta property="og:title" content="SafarByAriba — Expert Visa & Travel Consulting" />
+  <meta property="og:description" content="Bespoke visa and travel consultancy for the modern global citizen." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Hidden static form for Netlify build-time detection -->
+  <form name="consultations" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="text" name="full_name" />
+    <input type="email" name="email" />
+    <input type="tel" name="phone" />
+    <input type="text" name="service" />
+    <textarea name="message"></textarea>
+  </form>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#top" class="logo">Safar<span>ByAriba</span></a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#services" data-en="Services" data-ar="الخدمات" data-fr="Services">Services</a>
+        <a href="#process" data-en="Methodology" data-ar="المنهجية" data-fr="Méthodologie">Methodology</a>
+        <a href="#contact" data-en="Contact" data-ar="تواصل" data-fr="Contact">Contact</a>
+      </div>
+
+      <div class="nav-right">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="fr">FR</button>
+          <button type="button" class="lang-btn" data-lang="ar">AR</button>
+        </div>
+        <a href="#contact" class="btn-inquire" data-en="Inquire Now" data-ar="استفسر الآن" data-fr="Nous contacter">Inquire Now</a>
+        <button type="button" class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow" data-en="Global Mobility Advisory" data-ar="استشارات التنقل العالمي" data-fr="Conseil en mobilité internationale">Global Mobility Advisory</span>
+        <h1 data-en="Navigate the World with Distinction" data-ar="استكشف العالم بتميّز" data-fr="Parcourez le monde avec distinction">Navigate the World with Distinction</h1>
+        <p data-en="A bespoke visa and travel consultancy for the modern global citizen. We manage the complexities of international mobility while you focus on the journey ahead." data-ar="استشارة متخصصة في التأشيرات والسفر للمواطن العالمي. نتولى تعقيدات التنقل الدولي بينما تركّز أنت على رحلتك." data-fr="Un cabinet de conseil sur mesure en visa et voyage pour le citoyen du monde moderne. Nous gérons les complexités de la mobilité internationale pendant que vous vous concentrez sur le voyage.">A bespoke visa and travel consultancy for the modern global citizen. We manage the complexities of international mobility while you focus on the journey ahead.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn-primary">
+            <span class="dot"><span></span></span>
+            <span data-en="Schedule Consultation" data-ar="احجز استشارة" data-fr="Prendre rendez-vous">Schedule Consultation</span>
+          </a>
+          <a href="#services" class="btn-outline" data-en="View Services" data-ar="اطّلع على الخدمات" data-fr="Voir les services">View Services</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="hero-passport.jpg" alt="Passport on marble surface" width="1024" height="1280" />
+        <div class="badge">Est. 2026</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow gold" data-en="Expertise" data-ar="الخبرة" data-fr="Expertise">Expertise</span>
+        <h2 data-en="White-Glove Mobility Solutions" data-ar="حلول سفر بعناية استثنائية" data-fr="Des solutions de mobilité d'exception">White-Glove Mobility Solutions</h2>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3 data-en="Visa Application Assistance" data-ar="المساعدة في طلبات التأشيرة" data-fr="Assistance aux demandes de visa">Visa Application Assistance</h3>
+          <p data-en="End-to-end support for your visa application, from eligibility assessment to submission and follow-up." data-ar="دعم شامل لطلب تأشيرتك، من تقييم الأهلية إلى التقديم والمتابعة." data-fr="Un accompagnement complet pour votre demande de visa, de l'évaluation d'éligibilité au dépôt et au suivi.">End-to-end support for your visa application, from eligibility assessment to submission and follow-up.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <h3 data-en="Documents Checklist & Review" data-ar="قائمة ومراجعة المستندات" data-fr="Liste et révision des documents">Documents Checklist & Review</h3>
+          <p data-en="A tailored checklist and meticulous review of every document to ensure a flawless submission." data-ar="قائمة مخصصة ومراجعة دقيقة لكل مستند لضمان تقديم متكامل." data-fr="Une liste personnalisée et un examen minutieux de chaque document pour un dépôt irréprochable.">A tailored checklist and meticulous review of every document to ensure a flawless submission.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3 data-en="Travel Itinerary Planning" data-ar="تخطيط برنامج السفر" data-fr="Planification d'itinéraire de voyage">Travel Itinerary Planning</h3>
+          <p data-en="Bespoke day-by-day itineraries crafted around your pace, interests, and travel objectives." data-ar="برامج سفر مخصصة يومًا بيوم تُصمَّم وفق إيقاعك واهتماماتك وأهدافك." data-fr="Des itinéraires sur mesure, jour après jour, conçus selon votre rythme, vos intérêts et vos objectifs de voyage.">Bespoke day-by-day itineraries crafted around your pace, interests, and travel objectives.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <h3 data-en="Hotel & Accommodation Booking" data-ar="حجز الفنادق والإقامة" data-fr="Réservation d'hôtels et d'hébergements">Hotel & Accommodation Booking</h3>
+          <p data-en="Curated stays across luxury hotels, boutique retreats, and private residences worldwide." data-ar="إقامات مختارة في فنادق فاخرة ومنتجعات بوتيك وإقامات خاصة حول العالم." data-fr="Une sélection de séjours dans des hôtels de luxe, des retraites de charme et des résidences privées à travers le monde.">Curated stays across luxury hotels, boutique retreats, and private residences worldwide.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <h3 data-en="eSIM & Connectivity Solutions" data-ar="حلول eSIM والاتصال" data-fr="Solutions eSIM et connectivité">eSIM & Connectivity Solutions</h3>
+          <p data-en="Stay connected from the moment you land with reliable eSIM and international data plans." data-ar="ابقَ متصلاً منذ لحظة وصولك عبر باقات eSIM وبيانات دولية موثوقة." data-fr="Restez connecté dès votre arrivée grâce à des eSIM fiables et à des forfaits data internationaux.">Stay connected from the moment you land with reliable eSIM and international data plans.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <h3 data-en="Airport Transfers" data-ar="التنقلات من وإلى المطار" data-fr="Transferts aéroport">Airport Transfers</h3>
+          <p data-en="Private, punctual airport transfers with vetted chauffeurs for a seamless arrival and departure." data-ar="تنقلات خاصة ودقيقة من وإلى المطار مع سائقين موثوقين لتجربة وصول ومغادرة سلسة." data-fr="Des transferts aéroport privés et ponctuels avec des chauffeurs sélectionnés pour une arrivée et un départ en toute fluidité.">Private, punctual airport transfers with vetted chauffeurs for a seamless arrival and departure.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">07</div>
+          <h3 data-en="Tour & Activity Recommendations" data-ar="توصيات الجولات والأنشطة" data-fr="Recommandations d'excursions et d'activités">Tour & Activity Recommendations</h3>
+          <p data-en="Handpicked tours, experiences, and hidden gems tailored to every destination on your journey." data-ar="جولات وتجارب وأماكن مميزة مختارة بعناية لكل وجهة في رحلتك." data-fr="Des visites, expériences et trésors cachés soigneusement sélectionnés pour chaque destination de votre voyage.">Handpicked tours, experiences, and hidden gems tailored to every destination on your journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="process">
+    <div class="container process-grid">
+      <div>
+        <h2 data-en="Our Methodology" data-ar="منهجيتنا" data-fr="Notre méthodologie">Our Methodology</h2>
+        <div class="steps">
+          <div class="step">
+            <span class="numeral">I.</span>
+            <div>
+              <h4 data-en="Profile Evaluation" data-ar="تقييم الملف" data-fr="Évaluation du profil">Profile Evaluation</h4>
+              <p data-en="We analyze your travel objectives and eligibility to craft a tailored regulatory strategy." data-ar="نحلل أهدافك وشروط أهليتك لصياغة استراتيجية مخصصة." data-fr="Nous analysons vos objectifs de voyage et votre éligibilité afin d'élaborer une stratégie réglementaire sur mesure.">We analyze your travel objectives and eligibility to craft a tailored regulatory strategy.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="numeral">II.</span>
+            <div>
+              <h4 data-en="Dossier Curation" data-ar="إعداد الملف" data-fr="Constitution du dossier">Dossier Curation</h4>
+              <p data-en="Meticulous preparation of all required documentation to ensure a seamless approval process." data-ar="إعداد دقيق لكل الوثائق المطلوبة لضمان سلاسة الموافقة." data-fr="Préparation méticuleuse de toute la documentation requise pour garantir une approbation sans accroc.">Meticulous preparation of all required documentation to ensure a seamless approval process.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="numeral">III.</span>
+            <div>
+              <h4 data-en="Final Clearance" data-ar="المتابعة النهائية" data-fr="Validation finale">Final Clearance</h4>
+              <p data-en="Submission management and real-time tracking until your credentials are secured." data-ar="إدارة التقديم والمتابعة الفورية حتى الحصول على وثائقك." data-fr="Gestion du dépôt et suivi en temps réel jusqu'à l'obtention de vos documents.">Submission management and real-time tracking until your credentials are secured.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="process-image">
+        <img src="process-hallway.jpg" alt="Elegant arched hallway" width="1200" height="1600" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container-narrow">
+      <div class="section-head center">
+        <h2 data-en="Request a Private Consultation" data-ar="اطلب استشارة خاصة" data-fr="Demander une consultation privée">Request a Private Consultation</h2>
+        <p data-en="Our specialists respond to inquiries within one business day." data-ar="يرد اختصاصيّونا خلال يوم عمل واحد." data-fr="Nos spécialistes répondent à toute demande sous un jour ouvré.">Our specialists respond to inquiries within one business day.</p>
+      </div>
+
+      <form name="consultations" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/?form=consultations" id="contactForm" class="contact-form">
+        <input type="hidden" name="form-name" value="consultations" />
+        <p class="honeypot"><label>Don't fill: <input name="bot-field" /></label></p>
+
+        <div class="form-row">
+          <div class="field">
+            <label data-en="Full Name" data-ar="الاسم الكامل" data-fr="Nom complet">Full Name</label>
+            <input type="text" name="full_name" required />
+          </div>
+          <div class="field">
+            <label data-en="Email Address" data-ar="البريد الإلكتروني" data-fr="Adresse e-mail">Email Address</label>
+            <input type="email" name="email" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label data-en="Phone Number" data-ar="رقم الهاتف" data-fr="Numéro de téléphone">Phone Number</label>
+            <input type="tel" name="phone" required />
+          </div>
+          <div class="field">
+            <label data-en="Service Interest" data-ar="الخدمة المطلوبة" data-fr="Service souhaité">Service Interest</label>
+            <select name="service">
+              <option data-en="Visa Application Assistance" data-ar="المساعدة في طلبات التأشيرة" data-fr="Assistance aux demandes de visa">Visa Application Assistance</option>
+              <option data-en="Documents Checklist & Review" data-ar="قائمة ومراجعة المستندات" data-fr="Liste et révision des documents">Documents Checklist & Review</option>
+              <option data-en="Travel Itinerary Planning" data-ar="تخطيط برنامج السفر" data-fr="Planification d'itinéraire de voyage">Travel Itinerary Planning</option>
+              <option data-en="Hotel & Accommodation Booking" data-ar="حجز الفنادق والإقامة" data-fr="Réservation d'hôtels et d'hébergements">Hotel & Accommodation Booking</option>
+              <option data-en="eSIM & Connectivity Solutions" data-ar="حلول eSIM والاتصال" data-fr="Solutions eSIM et connectivité">eSIM & Connectivity Solutions</option>
+              <option data-en="Airport Transfers" data-ar="التنقلات من وإلى المطار" data-fr="Transferts aéroport">Airport Transfers</option>
+              <option data-en="Tour & Activity Recommendations" data-ar="توصيات الجولات والأنشطة" data-fr="Recommandations d'excursions et d'activités">Tour & Activity Recommendations</option>
+              <option data-en="All Services" data-ar="جميع الخدمات" data-fr="Tous les services">All Services</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label data-en="Your Message" data-ar="رسالتك" data-fr="Votre message">Your Message</label>
+          <textarea name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit" data-en="Submit Inquiry" data-ar="إرسال الطلب" data-fr="Envoyer la demande">Submit Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo light">Safar<span>ByAriba</span></a>
+      <p class="copyright">© <span id="year"></span> SafarByAriba. <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة." data-fr="Tous droits réservés.">All rights reserved.</span></p>
+      <div class="socials">
+        <a href="https://www.instagram.com/safarbyariba/">Instagram</a>
+        <a href="https://www.linkedin.com/company/safarbyariba/about/">LinkedIn</a>
+        <a href="https://www.facebook.com/SafarByAriba">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/message/YC7RFO7EMIOFM1" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" class="whatsapp-float">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.11 17.28c-.29-.14-1.72-.85-1.98-.94-.27-.1-.46-.14-.66.14-.19.29-.76.94-.93 1.13-.17.19-.34.22-.63.07-.29-.14-1.22-.45-2.33-1.44-.86-.77-1.44-1.71-1.61-2s-.02-.44.13-.58c.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.66-1.6-.9-2.19-.24-.58-.48-.5-.66-.5h-.56c-.19 0-.51.07-.77.36-.27.29-1.02.99-1.02 2.42s1.04 2.81 1.19 3c.14.19 2.05 3.12 4.96 4.37.69.3 1.23.47 1.65.6.69.22 1.32.19 1.82.12.56-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.19-.55-.33zM16 4C9.37 4 4 9.37 4 16c0 2.12.55 4.14 1.59 5.94L4 28l6.24-1.64A11.94 11.94 0 0 0 16 28c6.63 0 12-5.37 12-12S22.63 4 16 4zm0 21.86c-1.83 0-3.6-.49-5.13-1.4l-.37-.22-3.71.97.99-3.62-.24-.38A9.86 9.86 0 1 1 25.86 16 9.87 9.87 0 0 1 16 25.86z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
