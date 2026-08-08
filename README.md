@@ -47,38 +47,6 @@ The project is intentionally built without frameworks, making it lightweight, pe
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-
-> Replace with a full-page screenshot of the homepage.
-
-```text
-README/images/homepage.png
-```
-
----
-
-### Services Section
-
-> Replace with a screenshot of the services cards.
-
-```text
-README/images/services.png
-```
-
----
-
-### Consultation Form
-
-> Replace with a screenshot of the contact section.
-
-```text
-README/images/contact.png
-```
-
----
-
 ## 🛠 Tech Stack
 
 | Category | Technology |
@@ -240,35 +208,6 @@ Key design elements include:
 - Dark mode
 - Analytics dashboard
 - Additional language support
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are always welcome.
-
-If you'd like to contribute:
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature/my-feature
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push your branch
-
-```bash
-git push origin feature/my-feature
-```
-
-5. Open a Pull Request
 
 ---
 
